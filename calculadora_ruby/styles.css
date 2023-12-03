@@ -1,0 +1,80 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+form{
+    height: 60%;
+    width: 20%;
+    max-width: 300px;
+    min-width: 200px;
+    margin: auto;
+    padding: 30px 0;
+}
+.header-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 0;
+    width: auto;
+    position: relative;
+}
+.header-display #display{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #e8e8e800;
+    color: #393939;
+    text-align: right;
+}
+.header-display .input{
+    width: auto;
+    border: solid 1px #00000078;
+    background-color: #e8e8e8;
+    color: #000000;
+    font-size: 15px;
+    text-align: right;
+    margin: 0;
+    padding: 30px 2px 2px 2px;
+}
+.header-display button{
+    width: auto;
+    height: 30px;
+    border-radius: 5%;
+    border: none;
+    background-color: #c2c2c2;
+    color: #000000;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+}
+.btn-operators{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+}
+.buttons button{
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    border: none;
+    margin: 2px 1px;
+    background-color: #c2c2c2;
+    color: #000000;
+    font-size: 10px;
+    cursor: pointer;
+}
